@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moraes Computadores</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+   <nav> 
+    <div class="container clearfix">
+        <h1>
+           <a href="/">
+           <img src="img/MOraes lindo.svg" alt="Meu Logotipo">
+           </a>
+         </h1>
+    <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="produtos.html">PRODUTOS</a></li>
+        <li><a href="servicos.html">SERVIÇOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+   </nav>
+    <header>
+        <div class="container clearfix">
+            <img src="img/slide1.png" alt="Nossos Serviços">
+        </div>
+   </header>
+     <main>
+         <div class="container clearfix"> 
+            <div class="col-12"> 
+                <form> 
+                    <label for="nome">Informe Seu Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe Seu nome" required><br>
+
+                    <label for="email">Informe Seu email</label>
+                    <input type="email" name="email" id="email" placeholder="Informe Seu email" required><br>
+
+                    <label for="nome">Informe Sua Turma</label>
+                    <div class="form-group">
+                        <input type="radio" name="turma" id="turma_1A" value="1A" checked>
+                        <label for="turma_1A">1A</label>
+                        <input type="radio" name="turma" id="turma_1B" value="1B" >
+                        <label for="turma_1B">1B</label>
+                    </div>
+                    <label for="nome">Motivo</label>
+                    <select name="motivo" id="motivo" required>
+                        <option value="">Selecione o Motivo</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="problema">Relatar Problema</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <label for="mensagem">Informe sua Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form> 
+                 
+    </main>
+    <footer>
+        <div class="col-12" id="coluna 2">
+            <h1>Moraes Computadores</h1>
+            <br>
+            <p>Aqui vendemos os melhores produtos envolvendo PCs, aqui acha placas de video, mouses gamers, monitores e muito mais.
+            Alem de nossos técnicos para conserto
+            </p>
+        </div>
+
+    </div>
+    </ul>
+
+    <p>Instituto Federal de Educação Ciência e Tecnologia Catarinense - Campus Videira</p>
+    <p>Rodovia SC 135, km 125 - Bairro Campo Experimental - CEP 89564-590 - Videira - SC - Fone: (49) 3533-4900</p>
+</footer>
+
+<script src="js/main.js"></script>
+
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+(function(){
+emailjs.init("Uus9InpY44DfBryOL");
+})();
+  </script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
